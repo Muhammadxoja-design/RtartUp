@@ -10,7 +10,6 @@ export function MusicPlayer() {
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
-
   const tracks = [
     {
       id: 1,
